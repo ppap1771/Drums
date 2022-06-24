@@ -98,7 +98,7 @@ while start :
         else :
             activeLength = 0
             if activeBeat < beats-1 :
-                activeLength += 1 
+                activeBeat += 1 
                 beatChanged = True
             else:
                 activeBeat = 0
